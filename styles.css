@@ -1,0 +1,88 @@
+#main{
+    display:flex;
+    justify-content:space-evenly;
+    width:auto;
+    margin:0 auto;
+    padding:20px;
+    border: 1px dotted black;
+    background-color: #9C528B;
+    border-bottom:12px solid #DDBFD6;
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+@keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+#pfp{
+    width:300px;
+    border-bottom:12px solid #DDBFD6;
+}
+.name{
+    text-align: center;
+    
+}
+body{
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-color: #401837;
+}
+#hobby{
+    margin-top: 50px;
+    text-align: left;
+    list-style-type: none;
+    font: weight 20px;
+}
+.link:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+.btn:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+.link{
+    box-shadow: inset 0 0 0 0 #DDBFD6;
+    color: #DDBFD6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
+}
+.achieve{
+    display:flex;
+    justify-content:space-evenly;
+    width:auto;
+    margin:0 auto;
+    padding:20px;
+    border: 1px dotted black;
+    background-color: #9C528B;
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards; 
+}
+.project{
+    display: -moz-inline-grid;
+    background-color: #724467;
+}
+.btn{
+    text-align: center;
+    background-color: #DDBFD6;
+    text-decoration-color: #9C528B;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-left:5px solid white;
+    border-bottom:5px solid white;
+    border-radius: 20px;
+}
+.proj{
+    text-decoration: none;
+    text-decoration-color: #DDBFD6  ;
+
+    
+}
+.head{
+    text-align:right;
+}
